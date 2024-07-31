@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/*-------------Navbar--------------*/
+.Nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #B4E380; */
+  background-color: #b5ff61;
+  margin: 0;
+}
+.Nav li{
+  list-style: none;
+  font-weight: bold;
+}
+.Nav a{
+  text-decoration: none;
+}
+
+/*-------------Search------------*/
+.search{
+  padding: 10px;
+  text-align: center;
+  height: 30vh;
+
+}
+.search input{
+  width: 80%;
+  padding: 10px;
+}
+
+
+/*-----------Products----------*/
+
+.products{
+  /* border: 2px solid lime; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.box{
+  /* border: 1px solid black; */
+  text-align: center;
+  
+}
+
+
+/*----------About Us----------*/
+
+.about{
+  padding: 20px;
+  text-align: center;
+}
+.about h2{
+  text-align: center;
+
+}
+.about p{
+  text-align: justify;
+}
+
+.about button{
+  background-color:  #a4ff3c;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+
+/*--------Footer------------*/
+
+.footer{
+  background-color: #191825;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+.footer ul{
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 0px;
+
+}
+
+
+/*----------Responsive---------------*/
+
+@media screen and (max-width:800px){
+
+  /*-------Navbar Responsive---------*/
+  .Nav li{
+    display: none;
+  } 
+  .search{
+    height: 15vh;
+  }
+
+
+   /*-------Products Responsive---------*/
+
+  .products{
+    padding: 10px;
+  }
+  .box{
+    padding: 10px;
+  }
+  .box img{
+    height: 250px;
+    width: 200px;
+  }
+  .box p{
+    font-size: 12px;
+  }
+
+  /*-------About Us Responsive----------*/
+  .about p{
+    font-size: 12px;
+  }
+
+  
+}
+
