@@ -20,14 +20,18 @@ code {
   background-color: #b5ff61;
   margin: 0;
 }
-.Nav li{
-  list-style: none;
-  font-weight: bold;
-}
+
 .Nav a{
   text-decoration: none;
 }
-
+.Nav_items{
+  list-style: none;
+  font-weight: bold;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
 /*-------------Search------------*/
 .search{
   padding: 10px;
@@ -107,6 +111,7 @@ code {
   } 
   .search{
     height: 15vh;
+    
   }
 
 
