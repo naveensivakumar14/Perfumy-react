@@ -12,3 +12,6 @@ Technologies Used:
 HTML & CSS: For the structure and styling of the website.
 JavaScript: For interactive elements and functionality.
 React.js: For building a dynamic and efficient user interface.
+
+
+Thanks for visiting perfumy!
